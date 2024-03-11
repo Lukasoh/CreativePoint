@@ -29,6 +29,12 @@ public class HintDataMgr : MonoBehaviour
     void LoadPlayerDataToJson()
     {
         string path = Path.Combine(Application.persistentDataPath, "hintData.json");
+        if (!File.Exists(path))
+        {
+            HintData hintData = new HintData();
+            string newHintData = JsonUtility.ToJson(hintData, true);
+            File.WriteAllText(path, newHintData);
+        }
         string jsonData = File.ReadAllText(path);
         hintData = JsonUtility.FromJson<HintData>(jsonData);
 
@@ -39,9 +45,6 @@ public class HintDataMgr : MonoBehaviour
     {
         LoadPlayerDataToJson();
         
-       
-
-
     }
 
     // Update is called once per frame
