@@ -1,23 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LevelTwoSelection : MonoBehaviour
 {
     public Button[] lvlButtons;
+    LevelSelection levelSelection;
 
     // Start is called before the first frame update
     void Start()
     {
-        int levelAt = PlayerPrefs.GetInt("levelAt", 14);
+        levelSelection = FindObjectOfType<LevelSelection>();
+        SetStageStatus();
+        
+    }
 
-        for (int i = 0; i < lvlButtons.Length; i++)
+    public void SetStageStatus()
+    {
+        for (int i = 12; i < levelSelection.stageData.levelOn.Length; i++)
         {
-            if (i + 14> levelAt)
-                lvlButtons[i].interactable = false;
+            if (levelSelection.stageData.levelOn[i])
+            {
+                lvlButtons[i - 12].interactable = true;
+            }
+            else
+            {
+                lvlButtons[i - 12].interactable = false;
+            }
         }
     }
 
-    
+
 }

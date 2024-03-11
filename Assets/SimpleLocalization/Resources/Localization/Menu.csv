@@ -43,3 +43,41 @@ Ftsix,"to one person at a time, how many","있다면, 가장 빠르게 모두에
 Ftseven,minutes will it take to convey the,암호를 전달하는데 몇분이
 Fteight,password the fastest?,걸릴까?
 Ftnine,(Passing on password takes 1 minute at a time),(한번 전달하는데 1분이 걸린다)
+Reset,Reset,초기화
+HintAsk,Would you like to watch the ad and get the hint?,광고를 신청하고 힌트를 보시겠습니까?
+FhintOne,The answer is in the text,정답은 보기에 있다
+FhintTwo,Look at the beginning and the end,처음과 끝을 잘 보시오
+FiveAsw,Focus on English,영어에 집중하시오
+SixAsw,Find the Liar first,거짓말쟁이를 먼저 찾으시오
+SixAswTwo,The thief is a liar,도둑은 거짓말쟁이다
+SixAswThree,D is not a thief,D는 도둑이 아니다
+Number,number,숫자
+FcOd,Focus on the order,순서에 집중하시오
+TkBw,Think backwards,거꾸로 생각하시오
+FcNb,Focus on the numbers,숫자에 집중하시오
+Clock,Clock,시계
+Clocktwo,"24 hours a day, nothing more","하루는 24시간, 그 이상은 없다"
+FtHintone,There is no need for one person to do all the work,굳이 한 사람이 모든 일을 해야 할 필요는 없다
+FtHinttwo,"After a minute, two people know the password","1분이 지나면 암호는 두 명이 알고 있다
+"
+FtfHintone,The alphabet is the first letter of a word,알파벳은 어떠한 단어의 첫 글자이다
+Calendar,Calendar,달력
+Calendarhint,There are 12 months on the calendar,달력에는 총 12개월이 있다
+RpHintone,Focus on the number that repeats,반복되는 숫자에 집중하시오
+TbTs,The biggest and smallest numbers,가장 큰 수와 가장 작은 수
+Rsnb,Think about the relationship between two numbers,두 숫자 사이의 관계를 생각하시오
+Caltt,You need to calculate three times,총 세번의 계산이 필요합니다
+NtHintOne,It will be easier to convert into a formula,수식으로 생각하면 더 간단해집니다
+ConsNb,Consecutive numbers,연속된 숫자
+NtQst,What is 5 times 100 divided by 1/2 ,100의 5배를 1/2로 나누면 무엇이 될까?
+Qnineteen,Q19. Find the right number for the question mark,Q19. 물음표에 맞는 수를 찾으시오
+Qtwenty       ,Q20. Find the right number for the question mark,Q20. 물음표에 맞는 수를 찾으시오
+Qtwentyone       ,Q21. Find the right number for the question mark,Q21. 물음표에 맞는 수를 찾으시오
+Qtwentytwo,Q22. Find the right number for the question mark,Q22. 물음표에 맞는 수를 찾으시오
+Qtwentythree,Q23. Find the right number for the question mark,Q23. 물음표에 맞는 수를 찾으시오
+Qtwentyfour       ,Q24. Find the right number for the question mark,Q24. 물음표에 맞는 수를 찾으시오
+NoMath,It's not math!,수학이 아니다!
+ChangeSt,Consider the relationship between the original sentence and the changed sentence,원래 문장과 바뀐 문장의 관계를 생각해 보자
+RomeNb,What if you use Roman numerals?,로마숫자를 사용한다면?
+PsnPs,Plus & Plus,더하기 & 더하기
+MultiKey,Multiplication is the key!,곱하기가 핵심!

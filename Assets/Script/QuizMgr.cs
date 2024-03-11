@@ -8,12 +8,19 @@ public class QuizMgr : MonoBehaviour
     public Text ScriptTxt;
     public GameObject Correct;
     public GameObject KeyBoard;
+    StageLvlController stageLvlController;
+
+    private void Start()
+    {
+        stageLvlController = FindObjectOfType<StageLvlController>();
+    }
 
     public void QuizAnswer1()
     {
         if (ScriptTxt.text == "16")
         {
             Correct.SetActive(true);
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -26,6 +33,7 @@ public class QuizMgr : MonoBehaviour
         if (ScriptTxt.text == "32")
         {
             Correct.SetActive(true);
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -39,7 +47,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -53,7 +61,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -67,7 +75,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -81,7 +89,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -95,7 +103,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -109,7 +117,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -123,7 +131,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -137,7 +145,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -151,7 +159,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -165,7 +173,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -179,7 +187,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -193,7 +201,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -207,7 +215,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -221,7 +229,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -235,7 +243,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {
@@ -249,7 +257,7 @@ public class QuizMgr : MonoBehaviour
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
-
+            stageLvlController.CorrectAnswer();
         }
         else
         {

@@ -560,20 +560,20 @@ public class HintDataMgr : MonoBehaviour
     
     public void HintOneShow()
     {
-        HintPnl1.SetActive(!HintPnl1.active);
+        HintPnl1.SetActive(!HintPnl1.activeSelf);
         Asw1.SetActive(true);
 
     }
 
     public void HintTwoShow()
     {
-        HintPnl2.SetActive(!HintPnl2.active);
+        HintPnl2.SetActive(!HintPnl2.activeSelf);
         Asw2.SetActive(true);
 
     }
     public void HintThreeShow()
     {
-        HintPnl3.SetActive(!HintPnl3.active);
+        HintPnl3.SetActive(!HintPnl3.activeSelf);
         Asw3.SetActive(true);
 
     }
