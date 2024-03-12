@@ -321,7 +321,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz22
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1794,7 +1794,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz21
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2078,7 +2078,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz19
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2997,7 +2997,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz23
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3300,7 +3300,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz24
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3869,7 +3869,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127870781}
         m_TargetAssemblyTypeName: SceneMoveMng, Assembly-CSharp
-        m_MethodName: NextScene_Quiz1
+        m_MethodName: NextScene_Quiz20
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

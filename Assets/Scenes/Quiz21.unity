@@ -205,7 +205,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 875710113}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AdvMgr, Assembly-CSharp
         m_MethodName: UserChoseToWatchAd
         m_Mode: 1
@@ -899,7 +899,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 875710111}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AdvMgr3, Assembly-CSharp
         m_MethodName: UserChoseToWatchAd
         m_Mode: 1
@@ -3592,11 +3592,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 875710114}
-  - component: {fileID: 875710113}
-  - component: {fileID: 875710112}
-  - component: {fileID: 875710111}
-  - component: {fileID: 875710115}
-  - component: {fileID: 875710116}
   m_Layer: 0
   m_Name: EmptyObject
   m_TagString: Untagged
@@ -3604,42 +3599,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &875710111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875710110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38822e3742caf2a44a3907822041255b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &875710112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875710110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5574fb19ed82560479214e672a570535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &875710113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875710110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbbd62b2c5b69434891a379080e074d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &875710114
 Transform:
   m_ObjectHideFlags: 0
@@ -3655,30 +3614,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &875710115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875710110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa72733055a23147a2f247cf199a375, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &875710116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875710110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b48ef31c2d884c80b7983f02e469b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &907176755
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,7 +3945,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 875710115}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MoveToNextLevel, Assembly-CSharp
         m_MethodName: LevelUnlocked2
         m_Mode: 1
@@ -5030,7 +4965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -261, y: -51}
+  m_AnchoredPosition: {x: -261, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100350465
@@ -5933,9 +5868,11 @@ GameObject:
   - component: {fileID: 1329074866}
   - component: {fileID: 1329074865}
   - component: {fileID: 1329074868}
+  - component: {fileID: 1329074872}
   - component: {fileID: 1329074869}
   - component: {fileID: 1329074870}
   - component: {fileID: 1329074871}
+  - component: {fileID: 1329074873}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -6032,7 +5969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScriptTxt: {fileID: 358630263}
   Correct: {fileID: 1822091554}
-  KeyBoard: {fileID: 0}
+  KeyBoard: {fileID: 875710110}
 --- !u!114 &1329074871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6050,6 +5987,33 @@ MonoBehaviour:
   - Name: Menu
     Id: 0
   SaveFolder: {fileID: 102900000, guid: c392831e85f928548b8494fefd912562, type: 3}
+--- !u!114 &1329074872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329074864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6816a1a609aa547b2d9dcb58155712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1329074873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329074864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010ff42a2eceae44ba6b3f9ef5fee432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlButtons: []
+  stageData:
+    levelOn: 000000000000000000000000000000000000000000000000
 --- !u!1 &1334494532
 GameObject:
   m_ObjectHideFlags: 0
@@ -9909,7 +9873,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 875710115}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MoveToNextLevel, Assembly-CSharp
         m_MethodName: LevelUnlocked2
         m_Mode: 1
@@ -10253,7 +10217,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 875710112}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AdvMgr2, Assembly-CSharp
         m_MethodName: UserChoseToWatchAd
         m_Mode: 1

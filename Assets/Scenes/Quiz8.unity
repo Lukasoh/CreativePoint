@@ -6964,8 +6964,10 @@ GameObject:
   - component: {fileID: 1329074865}
   - component: {fileID: 1329074868}
   - component: {fileID: 1329074869}
+  - component: {fileID: 1329074872}
   - component: {fileID: 1329074870}
   - component: {fileID: 1329074871}
+  - component: {fileID: 1329074873}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -7080,6 +7082,33 @@ MonoBehaviour:
   - Name: Menu
     Id: 0
   SaveFolder: {fileID: 102900000, guid: c392831e85f928548b8494fefd912562, type: 3}
+--- !u!114 &1329074872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329074864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6816a1a609aa547b2d9dcb58155712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1329074873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329074864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010ff42a2eceae44ba6b3f9ef5fee432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlButtons: []
+  stageData:
+    levelOn: 000000000000000000000000000000000000000000000000
 --- !u!1 &1341840228
 GameObject:
   m_ObjectHideFlags: 0

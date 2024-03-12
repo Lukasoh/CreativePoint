@@ -13,6 +13,7 @@ public class LevelTwoSelection : MonoBehaviour
     void Start()
     {
         levelSelection = FindObjectOfType<LevelSelection>();
+        levelSelection.LoadStageDataToJson();
         SetStageStatus();
         
     }

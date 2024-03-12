@@ -5350,6 +5350,8 @@ MonoBehaviour:
   - {fileID: 1140228329}
   - {fileID: 377066015}
   - {fileID: 1600788445}
+  stageData:
+    levelOn: 000000000000000000000000000000000000000000000000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

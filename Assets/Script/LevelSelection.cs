@@ -19,7 +19,7 @@ public class LevelSelection : MonoBehaviour
 
 
     [ContextMenu("To Json Data")]
-    void SaveStageDataToJson()
+    public void SaveStageDataToJson()
     {
         string jsonData = JsonUtility.ToJson(stageData, true);
         string path = Path.Combine(Application.persistentDataPath, "stageData.json");
@@ -27,7 +27,7 @@ public class LevelSelection : MonoBehaviour
 
     }
     [ContextMenu("From Json Data")]
-    void LoadStageDataToJson()
+    public void LoadStageDataToJson()
     {
         string path = Path.Combine(Application.persistentDataPath, "stageData.json");
         if (!File.Exists(path))

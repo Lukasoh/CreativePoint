@@ -265,5 +265,95 @@ public class QuizMgr : MonoBehaviour
 
         }
     }
+
+    public void QuizAnswer19()
+    {
+        if (ScriptTxt.text == "1000")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
+
+    public void QuizAnswer20()
+    {
+        if (ScriptTxt.text == "14")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
+
+    public void QuizAnswer21()
+    {
+        if (ScriptTxt.text == "9")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
+
+    public void QuizAnswer22()
+    {
+        if (ScriptTxt.text == "14")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
+
+    public void QuizAnswer23()
+    {
+        if (ScriptTxt.text == "8")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
+
+    public void QuizAnswer24()
+    {
+        if (ScriptTxt.text == "50")
+        {
+            Correct.SetActive(true);
+            KeyBoard.SetActive(false);
+            stageLvlController.CorrectAnswer();
+        }
+        else
+        {
+            ScriptTxt.text = "Wrong";
+
+        }
+    }
 }
 
