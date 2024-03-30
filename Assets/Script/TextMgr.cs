@@ -6,11 +6,14 @@ using UnityEngine.UI;
 public class TextMgr : MonoBehaviour
 {
     public Text ScriptTxt;
-    
+    public Text keyboardTxt;
 
     void Update()
     {
-        
+        if(keyboardTxt != null)
+        {
+            keyboardTxt.text = ScriptTxt.text;
+        }
     }
     
     public void PrintText0()

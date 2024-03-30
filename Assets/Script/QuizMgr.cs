@@ -283,7 +283,7 @@ public class QuizMgr : MonoBehaviour
 
     public void QuizAnswer20()
     {
-        if (ScriptTxt.text == "14")
+        if (ScriptTxt.text == "33")
         {
             Correct.SetActive(true);
             KeyBoard.SetActive(false);
