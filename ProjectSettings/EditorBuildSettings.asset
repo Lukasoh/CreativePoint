@@ -86,4 +86,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz24.unity
     guid: eed4ee497817c3040a99c66381405206
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 52fbf84c1a933084c81bcd98215800df, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 0e3f80a54df49ce44bb62d1faf46d634, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8729ed84b6afa4742b3ea54a95c6ba31, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 54aae48e6cd646a4d9b5f6f20f36cb61, type: 2}
