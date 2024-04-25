@@ -4,13 +4,15 @@ using GoogleMobileAds.Api;
 
 public class RewardedAdManager : MonoBehaviour
 {
-    
+    HintMgr hintMgr;
 
     private string _adUnitId = "ca-app-pub-3940256099942544/5224354917";
     private RewardedAd _rewardedAd;
 
     public void Start()
     {
+        hintMgr = FindObjectOfType<HintMgr>();
+
         // Initialize Google Mobile Ads SDK
         MobileAds.Initialize((InitializationStatus initStatus) =>
         {
@@ -55,8 +57,24 @@ public class RewardedAdManager : MonoBehaviour
             _rewardedAd.Show((Reward reward) =>
             {
                 //Reward for user
-                
-
+                if(!hintMgr.hintData.userHint[hintMgr.startNum])
+                {
+                    hintMgr.hintData.userHint[hintMgr.startNum] = true;
+                    hintMgr.SaveProgressToJson();
+                    hintMgr.hintPnl[0].SetActive(true);
+                }
+                else if(hintMgr.hintData.userHint[hintMgr.startNum] && !hintMgr.hintData.userHint[hintMgr.startNum + 1])
+                {
+                    hintMgr.hintData.userHint[hintMgr.startNum + 1] = true;
+                    hintMgr.SaveProgressToJson();
+                    hintMgr.hintPnl[1].SetActive(true);
+                }
+                else
+                {
+                    hintMgr.hintData.userHint[hintMgr.startNum + 2] = true;
+                    hintMgr.SaveProgressToJson();
+                    hintMgr.hintPnl[2].SetActive(true);
+                }
             });
         }
     }

@@ -30,10 +30,10 @@ Thiefb,B: C is not a thief,B: C는 도둑이 아니야
 Thiefc,C: I saw A stealing,C: 난 A가 도둑질하는걸 봤어
 Thiefd,D: I'm the thief,D: 내가 도둑이야
 Thiefe,E: B is not a thief,E: B는 도둑이 아니야
-Revone,"Rats become star,","쥐는 별이 되고,"
-Revtwo,wolf become flow,늑대는 흐름이 될 때
-Revthree,Then what does ,개는 무엇이 될까?
-Revfour,a dog become?,.
+Revone,"Rats become star,","쥐(Rats)는 별(Star)이 되고,"
+Revtwo,wolf become flow,늑대(Wolf)는 흐름(Flow)이 될 때
+Revthree,Then what does ,개(Dog)는 무엇이 될까?
+Revfour,a dog become?,
 Ftone,There are a total of ten people in,방에는 총 10명의 사람이 있다.
 Fttwo,the room. Assume that only one of,"이 중 1명만이 암호를 알고 있고,"
 Ftthree,them knows the password and,나머지 9명의 사람에게
@@ -81,3 +81,61 @@ ChangeSt,Consider the relationship between the original sentence and the changed
 RomeNb,What if you use Roman numerals?,로마숫자를 사용한다면?
 PsnPs,Plus & Plus,더하기 & 더하기
 MultiKey,Multiplication is the key!,곱하기가 핵심!
+Adv,Watch ads and get hint!,광고를 시청하고 힌트를 확인하세요!
+Hint,Hint,힌트
+Hint1,Hint 1,힌트 1
+Hint2,Hint 2,힌트 2
+Hint3,Hint 3,힌트 3
+Q1H1,The number gets smaller by 1 from the left,숫자는 왼쪽부터 1씩 감소합니다
+Q1H2,How about turning it upside down?,뒤집어보면 어떨까요?
+Q2H1,Squared and added are required,제곱과 더하기를 사용해보세요
+Q2H2,Let's square another number,다른 수를 제곱해보세요
+Q3H1,Let's focus on the alphabet we need,필요한 알파벳에 집중해보세요
+Q3H2,Let's just check the lines that are connected between the alphabets we need,필요한 알파벳끼리 연결된 선만 확인해보세요
+Q4H1,There is no need for a mathematical formula,수학 공식은 필요하지 않습니다
+Q4H2,There is an answer in the question,문제 속에 답이 있습니다
+Q5H2,Let's think of the numbers in English,숫자를 영어로 생각해보세요
+Q6H1,D is a liar,D는 거짓말쟁이입니다
+Q6H2,A is not lying,A는 거짓말을 하고있지 않습니다
+Q6H3,"Liar: B, C, D","거짓말쟁이: B, C, D"
+Q7H1,Focus on the order,순서에 집중해보세요
+Q7H2,Focus on the numbers,숫자에 집중해보세요
+Q8H1,Focus on the words,단어를 잘 살펴보세요
+Q8H3,Let's read from the back,뒤에서부터 읽어보세요
+Q9H2,It's a quiz to find the number of something,무언가의 개수를 찾는 문제입니다
+Q9H3,Find the number of circles,동그라미의 개수를 찾아보세요
+Q10H2,Think about the watch,시계를 생각해보세요
+Q10H3,"If the sum of the numbers is 12, it becomes 0",숫자 합이 12일 때 0이 됩니다
+Q11H1,Try the square,제곱을 사용해보세요
+Q11H2,We need to square and added,제곱과 덧셈이 필요합니다
+Q12H1,The answer is not 8. Look closely at the question,정답은 8이 아닙니다. 문제를 자세히 보세요
+Q12H2,This is connected in a single line,이 문제는 한 줄로 연결되어 있습니다
+Q13H1,You need to subtract and add,뺄셈과 덧셈이 필요합니다
+Q13H2,Subtraction is placed in front and addition is placed in back,"뺄셈은 앞에, 덧셈은 뒤에 배치합니다"
+Q14H1,"After a minute, a total of two people know the password",1분이 지나면 총 2명이 암호를 알고 있습니다
+Q14H2,The number of people who can pass the password increases every minute,암호 전달이 가능한 사람은 매 분마다 증가합니다
+Q14H3,"Every minute, the number of people who know the password doubles",1분마다 암호를 아는 사람의 수는 두배로 증가합니다
+Q15H1,The alphabet means a certain word,알파벳은 어떠한 단어를 의미합니다
+Q15H2,The value of the alphabet may be one value or may be added by more than one value,"알파벳의 값은 하나의 값일수도 있고, 두개 이상의 값이 더해진 것일 수도 있습니다"
+Q15H3,Think about the calendar,달력을 생각해 보세
+Q16H1,Remember the numbers that overlap,겹치는 숫자를 기억해 보세요
+Q16H2,"The numbers in the next row are 23, 34, and 18","다음 줄의 숫자들은 23, 34, 18이 됩니다"
+Q16H3,Focus on the largest and smallest numbers,가장 큰 수와 작은 수에 집중해보세요
+Q17H1,Three numbers,세가지의 숫자
+Q18H1,Try multiplying,곱하기를 사용해보세요
+Q19H1,There is no trick in the question,문제에 속임수는 없습니다
+Q19H2,Dividing one-half is equal to multiplying two,2분의 1을 나누는 것은 2를 곱하는 것과 같습니다
+Q20H1,The first number must be squared,첫번째 숫자는 제곱을 해야합니다
+Q20H2,The star-shaped operator is equal to minus,별모양 연산자는 빼기와 동일하게 기능합니다
+Q20H3,The second number is the sum from 1 to that number,두번째 숫자는 1부터 해당 숫자까지의 합입니다
+Q21H1,It's related to the alphabet,알파벳과 관련이 있습니다
+Q21H2,The fraction behind the star signifies the order,별모양 뒤의 분수는 순서를 의미합니다
+Q21H3,Think of the numbers in English,숫자를 영어로 생각해보세요
+Q22H1,Focus on the difference between the two sentences,두 문장의 다른 점에 집중해보세요
+Q22H2,Draw lines,선을 그려보세요
+Q22H3,You have to use Roman numerals,로마 숫자를 사용해야 합니다
+Q23H1,You can solve the problem by using only the plus,더하기만 사용하여 문제를 해결할 수 있습니다
+Q23H2,"28 is two numbers, two and eight",28은 2와 8 두개의 숫자입니다
+Q23H3,The number on the left moves to 10 digits and the number on the right moves to 1 digits,"왼쪽의 수는 10의자리, 오른쪽의 수는 1의 자리로 이동합니다"
+Q24H1,You have to use multiplication and addition,곱셈과 덧셈을 사용해야 합니다
+Q24H2,The number on the left is the standard,왼쪽의 수가 기준이 됩니다
