@@ -8,31 +8,39 @@ using UnityEngine.UI;
 
 public class MultiLanguage : MonoBehaviour
 {
-    
-    static void Awake()
+
+    void Awake()
     {
+        
         LocalizationManager.Read();
 
-        switch (Application.systemLanguage)
+        
+        string defaultLanguage = Application.systemLanguage == SystemLanguage.Korean ? "Korean" : "English";
+        string savedLanguage = PlayerPrefs.GetString("Language", defaultLanguage);
+
+        
+        LocalizationManager.Language = savedLanguage;
+
+        
+        if (PlayerPrefs.GetString("Language", "") == "")
         {
-            case SystemLanguage.English:
-                LocalizationManager.Language = "English";
-                PlayerPrefs.SetString("English", LocalizationManager.Language);
-                break;
-            case SystemLanguage.Korean:
-                LocalizationManager.Language = "Korean";
-                PlayerPrefs.SetString("Korean", LocalizationManager.Language);
-                break;
+            Language(savedLanguage);
         }
     }
 
     public void Language(string language)
     {
-        LocalizationManager.Language = language;
         
+        LocalizationManager.Language = language;
+
+        
+        PlayerPrefs.SetString("Language", language);
+        PlayerPrefs.Save();
+
+        
+        Debug.Log("Language set to: " + language);
     }
 
-   
 
-    
+
 }

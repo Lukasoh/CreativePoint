@@ -6,14 +6,16 @@ dependencies {
 // Android Resolver Dependencies Start
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:12
     implementation 'com.google.android.gms:play-services-ads:23.0.0' // Assets/GoogleMobileAds/Editor/GoogleMobileAdsDependencies.xml:7
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1' // Assets/LevelPlay/Editor/IronSourceSDKDependencies.xml:17
+    implementation 'com.google.android.gms:play-services-basement:18.1.0' // Assets/LevelPlay/Editor/IronSourceSDKDependencies.xml:25
     implementation 'com.google.android.ump:user-messaging-platform:2.2.0' // Assets/GoogleMobileAds/Editor/GoogleUmpDependencies.xml:7
+    implementation 'com.ironsource.sdk:mediationsdk:8.0.0' // Assets/LevelPlay/Editor/IronSourceSDKDependencies.xml:9
 // Android Resolver Dependencies End
 **DEPS**}
 
 // Android Resolver Exclusions Start
 android {
   packagingOptions {
-      exclude ('/lib/arm64-v8a/*' + '*')
       exclude ('/lib/armeabi/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')

@@ -117,7 +117,7 @@ Q14H2,The number of people who can pass the password increases every minute,암�
 Q14H3,"Every minute, the number of people who know the password doubles",1분마다 암호를 아는 사람의 수는 두배로 증가합니다
 Q15H1,The alphabet means a certain word,알파벳은 어떠한 단어를 의미합니다
 Q15H2,The value of the alphabet may be one value or may be added by more than one value,"알파벳의 값은 하나의 값일수도 있고, 두개 이상의 값이 더해진 것일 수도 있습니다"
-Q15H3,Think about the calendar,달력을 생각해 보세
+Q15H3,Think about the calendar,달력을 생각해 보세요
 Q16H1,Remember the numbers that overlap,겹치는 숫자를 기억해 보세요
 Q16H2,"The numbers in the next row are 23, 34, and 18","다음 줄의 숫자들은 23, 34, 18이 됩니다"
 Q16H3,Focus on the largest and smallest numbers,가장 큰 수와 작은 수에 집중해보세요
@@ -139,3 +139,5 @@ Q23H2,"28 is two numbers, two and eight",28은 2와 8 두개의 숫자입니다
 Q23H3,The number on the left moves to 10 digits and the number on the right moves to 1 digits,"왼쪽의 수는 10의자리, 오른쪽의 수는 1의 자리로 이동합니다"
 Q24H1,You have to use multiplication and addition,곱셈과 덧셈을 사용해야 합니다
 Q24H2,The number on the left is the standard,왼쪽의 수가 기준이 됩니다
+Home,Home,메인 화면
+NextLevel,Next Level,다음 단계

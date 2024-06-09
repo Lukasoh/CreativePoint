@@ -120,6 +120,9 @@ public class HintMgr : MonoBehaviour
         }
     }
     
+
+
+
     public void ClickBtn1()
     {
         if (!hintData.userHint[startNum]) 
