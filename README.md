@@ -42,7 +42,18 @@ it encompassed every stage from initial planning to launch and ongoing maintenan
 <br>
 
 ## **📄 Main Features**
-
+<div>
+  
+ ### System Features
+  - **Preferred Language Selection**: Users can select Korean and English as their preferred languages.
+  - **Game Data Reset**: Users can reset their game progress and start from the beginning.
+  
+### In-Game Features
+  - **Hint via Ad Viewing**: Users can watch an ad to receive up to 3 hints per quiz.
+  - **Stage Activation/Deactivation**: Stages are activated or deactivated based on the completion status of the previous stage.
+  - **Correct/Incorrect Answer Handling**: The application processes user input to determine whether the answer is correct or incorrect.
+  - **Input Length Restriction**: User input is limited to a specific number of characters to ensure consistency and avoid errors.
+</div>
 
 
 ---
